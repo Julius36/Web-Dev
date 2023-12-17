@@ -135,6 +135,13 @@ flex-shrink: 0;
     }
     .first-to .first-paragraph select{
         width: 97%;
+        height:48px;
+        background-color: #ffffff;
+    }
+    input[type="date"]{
+        width: 90%;
+        height: 48px;
+        background-color: #FFF;
     }
     .second-holder .first-paragraph select{
         width: 97%;
