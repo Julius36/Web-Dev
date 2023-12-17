@@ -109,7 +109,7 @@ flex-shrink: 0;
         grid-template-columns: auto;
     }
      form{
-        height: 790px;
+        height: 750px;
     }
     #fest{
         margin: 20px;
@@ -150,6 +150,8 @@ flex-shrink: 0;
     input[type="submit"]{
         margin-top: 20px;
         border-radius: 0%;
+         width: 245px;
+        height: 28px;
     }
     #gender{
         text-decoration-color: #737373;  
