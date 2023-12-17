@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Work+Sans:ital@1&family=Ysabeau+Infant:ital,wght@1,100&display=swap');
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(247, 253, 252);
+}
+.whole{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100svh;
+    place-items: center;
+}
+#fest{
+    margin-left: 140px;
+}
+#fest div img{
+    width: 77.333px;
+height: 80px;
+flex-shrink: 0;
+}
+#fest div h1{
+    color: var(--cl-black, #000B0A);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+    letter-spacing: -0.8px;
+}
+#fest div p{
+    color: var(--cl-grey, #737373);
+    width: 70%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+}
+#fest div .smaller{
+    display: none;
+}
+#second{
+    background-color: white;
+    margin-right: 140px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+}
+
+.first-to{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.first-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+    
+}
+.first-paragraph input{
+    padding: 8px 12px;
+    outline: none;
+    border: 1px solid var(--cl-gray-3, #F0F0F0);
+    width: 70%;
+}
+.first-to .first-paragraph select{
+    padding: 8px 12px;
+    outline: none;
+    border: 1px solid var(--cl-gray-3, #F0F0F0);
+    width: 80%;
+}
+.second-holder .first-paragraph input{
+    padding: 8px 12px;
+    outline: none;
+    border: 1px solid var(--cl-gray-3, #F0F0F0);
+    width: 89%;
+}
+.second-holder .first-paragraph select{
+    padding: 8px 12px;
+    outline: none;
+    border: 1px solid var(--cl-gray-3, #F0F0F0);
+    width: 93%;
+}
+.final-paragraph{
+    padding: 10px;
+}
+.final-paragraph p{
+    font-size: 14px;
+    text-align: center;
+}
+.final-paragraph input{
+    background-color: var(--cl-green, #2EC4B6);
+    filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.10));
+    color: var(--basic-100, #FFF);
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    border: none;
+    padding: 16px;
+}
+@media (max-width:767px) {
+    .whole{
+        grid-template-columns: auto;
+    }
+    #fest{
+        margin: 20px;
+    }
+    #fest div img{
+        width: 38.667px;
+        height: 40px;
+   }
+   #fest div h1{
+     font-size: 30px;
+    }
+   #fest div .bigger{
+    display: none;
+    }
+    #fest div .smaller{
+        display: inline;
+    }
+    #second{
+        margin: 20px;
+    }
+    .first-to{
+        grid-template-columns: auto;
+    }
+    .first-paragraph input{
+        width: 90%;
+    }
+    .first-to .first-paragraph select{
+        width: 97%;
+    }
+    .second-holder .first-paragraph select{
+        width: 97%;
+    }
+}
