@@ -142,7 +142,7 @@ flex-shrink: 0;
         background-color: #ffffff;
     }
      input[type="date"]{
-        width: 275px;
+        width: 295px;
         height: 28px;
         background-color: #FFF;
         text-decoration-color: #737373;
@@ -150,7 +150,7 @@ flex-shrink: 0;
     input[type="submit"]{
         margin-top: 20px;
         border-radius: 0px;
-         width: 245px;
+         width: 295px;
         height: 38px;
     }
     #gender{
