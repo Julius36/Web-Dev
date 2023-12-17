@@ -142,16 +142,16 @@ flex-shrink: 0;
         background-color: #ffffff;
     }
      input[type="date"]{
-        width: 245px;
+        width: 275px;
         height: 28px;
         background-color: #FFF;
         text-decoration-color: #737373;
     }
     input[type="submit"]{
         margin-top: 20px;
-        border-radius: 0%;
+        border-radius: 0px;
          width: 245px;
-        height: 28px;
+        height: 38px;
     }
     #gender{
         text-decoration-color: #737373;  
