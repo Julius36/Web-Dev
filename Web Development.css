@@ -108,6 +108,9 @@ flex-shrink: 0;
     .whole{
         grid-template-columns: auto;
     }
+     form{
+        height: 800px;
+    }
     #fest{
         margin: 20px;
     }
@@ -138,12 +141,28 @@ flex-shrink: 0;
         height:48px;
         background-color: #ffffff;
     }
-    input[type="date"]{
-        width: 90%;
-        height: 48px;
+     input[type="date"]{
+        width: 245px;
+        height: 28px;
         background-color: #FFF;
+        text-decoration-color: #737373;
+    }
+    input[type="submit"]{
+        margin-top: 20px;
+        border-radius: none;
+    }
+    #gender{
+        text-decoration-color: #737373;  
     }
     .second-holder .first-paragraph select{
         width: 97%;
+         width: 97%;
+        height: 48px;
+        background-color: #fff;
+        border-radius: none;
+        text-decoration-color: #737373;
+    }
+    .final-paragraph p {
+        margin-top: 50px;
     }
 }
