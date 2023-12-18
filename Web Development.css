@@ -72,19 +72,21 @@ flex-shrink: 0;
     padding: 8px 12px;
     outline: none;
     border: 1px solid var(--cl-gray-3, #F0F0F0);
+    background-color: #fff;
     width: 80%;
 }
 .second-holder .first-paragraph input{
     padding: 8px 12px;
     outline: none;
     border: 1px solid var(--cl-gray-3, #F0F0F0);
-    width: 89%;
+    width: 85%;
 }
 .second-holder .first-paragraph select{
     padding: 8px 12px;
     outline: none;
     border: 1px solid var(--cl-gray-3, #F0F0F0);
-    width: 93%;
+    background-color: #fff;
+    width: 91%;
 }
 .final-paragraph{
     padding: 10px;
@@ -142,7 +144,11 @@ flex-shrink: 0;
         background-color: #FFF;
     }
     #gender, input[type="date"]{
-        text-decoration-color: #737373;  
+        text-decoration-color: #737373;
+        background-color: #fff;
+    }
+    input[type="date"]{
+        width: 90%;
     }
     #activityLevel{
         background-color: #fff;  
