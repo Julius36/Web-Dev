@@ -68,6 +68,9 @@ flex-shrink: 0;
     border: 1px solid var(--cl-gray-3, #F0F0F0);
     width: 70%;
 }
+input[type="date"]{
+        background-color: #fff;
+    }
 .first-to .first-paragraph select{
     padding: 8px 12px;
     outline: none;
